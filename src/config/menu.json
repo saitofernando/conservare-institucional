@@ -18,8 +18,8 @@
       "hasChildren": true,
       "children": [
         {
-          "name": "Contact",
-          "url": "/contact"
+          "name": "Contato",
+          "url": "/contato"
         },
         {
           "name": "Elements",

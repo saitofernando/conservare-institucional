@@ -9,7 +9,7 @@
     "logo_darkmode": "/images/logo.svg",
     "logo_width": "180",
     "logo_height": "45",
-    "logo_text": "Astroplate"
+    "logo_text": "Conservare Gráfica"
   },
 
   "settings": {
@@ -17,8 +17,8 @@
     "sticky_header": true,
     "theme_switcher": true,
     "default_theme": "system",
-    "pagination": 2,
-    "summary_length": 200,
+    "pagination": 4,
+    "summary_length": 100,
     "blog_folder": "produtos"
   },
 

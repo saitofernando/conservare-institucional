@@ -1,8 +1,8 @@
 ---
-title: "Entenda quem somos e por que existimos"
-meta_title: "Sobre"
-description: "this is meta description"
-image: "/images/avatar.png"
+title: "A Conservare Gráfica"
+meta_title: "Sobre a Conservare Gráfica"
+description: "A Conservare Gráfica está no mercado desde 2015, evoluindo de forma ágil buscando aperfeiçoar cada detalhe de todos os setores."
+image: "/images/conservare-predio.webp"
 draft: false
 ---
 
