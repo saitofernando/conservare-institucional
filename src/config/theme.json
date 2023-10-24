@@ -5,11 +5,11 @@
         "primary": "#002841",
         "body": "#fff",
         "border": "#eaeaea",
-        "theme_light": "#f6f6f6",
+        "theme_light": "#FAFAFA",
         "theme_dark": ""
       },
       "text_color": {
-        "default": "#444444",
+        "default": "#001F33",
         "dark": "#002841",
         "light": "#717171"
       }
@@ -23,7 +23,7 @@
         "theme_dark": ""
       },
       "text_color": {
-        "default": "#ffffff98",
+        "default": "#ffffff99",
         "dark": "#fff",
         "light": "#ffffff98"
       }

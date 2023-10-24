@@ -8,6 +8,7 @@ import { Image } from "astro:assets";
 import { getEntryBySlug } from "astro:content";
 import { FaCheck } from "react-icons/fa/index.js";
 import Youtube from "@/shortcodes/Youtube.tsx";
+import { Brands } from "@/shortcodes/Brands.jsx";
 
 interface Homepage {
   banner: {
@@ -58,6 +59,8 @@ const { banner, features }: Homepage = homepage.data;
     </div>
   </section>
   <!-- /Banner -->
+
+  <Brands client:load />
   <!-- Features -->
   {
     features.map((feature, index: number) => (
@@ -84,7 +87,11 @@ const { banner, features }: Homepage = homepage.data;
               <ul>
                 {feature.bulletpoints.map((bullet: string) => (
                   <li class="relative mb-4 pl-6">
-                    <FaCheck className={"absolute left-0 top-1.5"} />
+                    <FaCheck
+                      className={
+                        "text-darkmode-primary absolute left-0 top-1.5"
+                      }
+                    />
                     <span set:html={markdownify(bullet)} />
                   </li>
                 ))}
@@ -101,9 +108,9 @@ const { banner, features }: Homepage = homepage.data;
     ))
   }
   <!-- /Features -->
-
-  <Youtube client:load id="ZEe-IFezQok" title="Youtube Video Test Title" />
-
+  <div class="container">
+    <Youtube client:load id="J_useweCl3g" title="Youtube Video Test Title" />
+  </div>
   <Testimonial testimonial={testimonial} />
   <CallToAction call_to_action={call_to_action} />
 </Base>

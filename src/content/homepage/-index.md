@@ -8,7 +8,7 @@ A Gráfica Conservare é a escolha certa para que suas impressões sejam de alta
   button:
     enable: true
     label: "FALE COM UM ATENDENTE"
-    link: "https://github.com/zeon-studio/astroplate"
+    link: "https://wa.me/message/LV47IM4YP4KEA1"
 
 # Features
 features:
@@ -37,7 +37,7 @@ features:
     button:
       enable: true
       label: "PEÇA UM ORÇAMENTO"
-      link: "https://github.com/zeon-studio/astroplate"
+      link: "https://wa.me/message/LV47IM4YP4KEA1"
 
   - title: "Plotagem de Projetos"
     image: "/images/service-3.png"

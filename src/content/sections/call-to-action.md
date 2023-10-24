@@ -1,10 +1,10 @@
 ---
 enable: true
-title: "Ready to build your next project with Astro?"
+title: "Orçamento sem compromisso!"
 image: "/images/call-to-action.png"
-description: "Experience the future of web development with Astroplate and Astro. Build lightning-fast static sites with ease and flexibility."
+description: "Faça sua marca se destacar com nossos impressos personalizadas exclusivos!"
 button:
   enable: true
-  label: "Get Started Now"
-  link: "https://github.com/zeon-studio/astroplate"
+  label: "FALE COM UM ATENDENTE"
+  link: "https://wa.me/message/LV47IM4YP4KEA1"
 ---

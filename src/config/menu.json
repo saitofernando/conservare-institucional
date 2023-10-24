@@ -8,50 +8,42 @@
       "name": "Produtos",
       "url": "/produtos"
     },
+
     {
-      "name": "Sobre",
-      "url": "/about"
+      "name": "Setores",
+      "url": "/setores"
     },
     {
-      "name": "Pages",
+      "name": "Orçamento",
+      "url": "/orcamento"
+    },
+    {
+      "name": "Mais",
       "url": "",
       "hasChildren": true,
       "children": [
         {
-          "name": "Contato",
-          "url": "/contato"
-        },
-        {
-          "name": "Elements",
-          "url": "/elements"
-        },
-        {
-          "name": "Authors",
-          "url": "/authors"
-        },
-        {
-          "name": "Categories",
+          "name": "Categorias",
           "url": "/categories"
         },
-
         {
-          "name": "404 Page",
-          "url": "/404"
+          "name": "Sobre",
+          "url": "/sobre"
         }
       ]
     }
   ],
   "footer": [
     {
-      "name": "Elements",
+      "name": "Elementos",
       "url": "/elements"
     },
     {
-      "name": "Privacy Policy",
+      "name": "Privacidade",
       "url": "/privacy-policy"
     },
     {
-      "name": "Search",
+      "name": "Pesquisar",
       "url": "/search"
     }
   ]

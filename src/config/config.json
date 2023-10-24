@@ -24,7 +24,7 @@
 
   "params": {
     "contact_form_action": "#",
-    "copyright": "2023 - Conservare Gráfica ® | CNPJ: 22.367.488/0001-22  Todos os direitos reservados."
+    "copyright": "2023 - Conservare Gráfica ® | CNPJ: 22.367.488/0001-22 | Todos os direitos reservados."
   },
 
   "navigation_button": {
@@ -36,11 +36,13 @@
   "disqus": {
     "enable": true,
     "shortname": "themefisher-template",
-    "settings": {}
+    "settings": {
+      "language": "pt_BR"
+    }
   },
 
   "metadata": {
-    "meta_author": "zeon.studio",
+    "meta_author": "Conservare Gráfica",
     "meta_image": "/images/og-image.png",
     "meta_description": "astro and tailwind boilerplate"
   }

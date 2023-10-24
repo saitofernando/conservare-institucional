@@ -3,22 +3,22 @@
     {
       "name": "facebook",
       "icon": "FaFacebook",
-      "link": "https://www.facebook.com/"
+      "link": "https://www.facebook.com/conservaregrafica"
     },
     {
-      "name": "twitter",
-      "icon": "FaTwitter",
-      "link": "https://twitter.com/"
+      "name": "WhatsApp",
+      "icon": "FaWhatsapp",
+      "link": "https://wa.me/message/LV47IM4YP4KEA1"
     },
     {
-      "name": "github",
-      "icon": "FaGithub",
-      "link": "https://www.github.com/"
+      "name": "Instagram",
+      "icon": "FaInstagram",
+      "link": "https://www.instagram.com/conservaregrafica/"
     },
     {
       "name": "linkedin",
       "icon": "FaLinkedin",
-      "link": "https://www.linkedin.com/"
+      "link": "https://www.linkedin.com/company/conservare-gr%C3%A1fica/"
     }
   ]
 }

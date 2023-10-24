@@ -1,6 +1,5 @@
 ---
 import BlogCard from "@/components/BlogCard.astro";
-import Social from "@/components/Social.astro";
 import config from "@/config/config.json";
 import Base from "@/layouts/Base.astro";
 import { getSinglePage } from "@/lib/contentParser.astro";
@@ -8,7 +7,7 @@ import { slugify } from "@/lib/utils/textConverter";
 import { Image } from "astro:assets";
 
 export async function getStaticPaths() {
-  const authors = await getSinglePage("authors");
+  const authors = await getSinglePage("setores");
 
   const paths = authors.map((author) => ({
     params: {
@@ -57,7 +56,6 @@ const postFilterByAuthor = posts.filter(
           <div class="content">
             <Content />
           </div>
-          <Social source={social} className="social-icons" />
         </div>
       </div>
 
