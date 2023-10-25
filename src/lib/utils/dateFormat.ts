@@ -1,10 +1,11 @@
 import { formatInTimeZone } from "date-fns-tz";
+import { ptBR } from "date-fns/locale";
 
 const dateFormat = (
   date: Date | string,
-  format: string = "dd MMM, yyyy",
+  format: string = `dd 'de' MMMM 'de' yyyy`,
 ): string => {
-  return formatInTimeZone(date, "America/New_York", format);
+  return formatInTimeZone(date, "America/Boa_Vista", format, { locale: ptBR });
 };
 
 export default dateFormat;
