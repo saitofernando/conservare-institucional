@@ -108,9 +108,23 @@ const { banner, features }: Homepage = homepage.data;
     ))
   }
   <!-- /Features -->
-  <div class="container">
-    <Youtube client:load id="J_useweCl3g" title="Youtube Video Test Title" />
-  </div>
+  <section class="mb-28">
+    <div class="container">
+      <div
+        class="bg-darkmode-theme-light bg-theme-light px-8 xl:p-20 pt-12 pb-12 rounded-xl"
+      >
+        <div class="items-center justify-between">
+          <h5 class="text-center pt-8">PARQUE GRÁFICO</h5>
+          <h2 class="text-center pt-2 pb-12">Confira nosso espaço de perto.</h2>
+          <Youtube
+            client:load
+            id="J_useweCl3g"
+            title="Video da Conservare Gráfica"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
   <Testimonial testimonial={testimonial} />
   <CallToAction call_to_action={call_to_action} />
 </Base>

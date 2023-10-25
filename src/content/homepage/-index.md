@@ -12,8 +12,8 @@ A Gráfica Conservare é a escolha certa para que suas impressões sejam de alta
 
 # Features
 features:
-  - title: "Impressão Offset"
-    image: "/images/service-1.png"
+  - title: "Papelaria"
+    image: "/images/papelaria.png"
     content: "A impressão offset é recomendada para impressões em larga escala, ou seja, em produções com um número mais elevado de materiais."
     bulletpoints:
       - "Cartões de Visita"
@@ -22,44 +22,60 @@ features:
       - "Flyers, panfletos e folders"
       - "Sacolas de Papel"
       - "Embalagens de Papel"
+      - "Cardápios e Rótulos"
+      - "Tags e Certificados"
+      - "Talões, blocos e receituários"
+
+
+
     button:
       enable: false
-      label: "Get Started Now"
-      link: "#"
+      label: "VER PRODUTOS"
+      link: "/papelaria"
 
-  - title: "Comunicação Visual"
-    image: "/images/service-2.png"
-    content: "A comunicação visual se refere à impressão de materiais gráficos em tamanhos maiores do que os tradicionais."
+  - title: "Plotagem de Projetos"
+    image: "/images/plotagem.png"
+    content: "É uma impressão de grande formato com o diferencial de entregar a maior qualidade possível resultando um material com linhas, escalas e legendas nítidas e exatas, fiéis ao projeto original."
     bulletpoints:
-      - "Impressão em lonas de até 3,10 metros de largura."
-      - "Impressão em adesivos de até 1,60 metros de largura."
-      - "Placa de PVC adesivada de até 2x1 metros."
+      - "A0"
+      - "A1+"
+      - "A1"
+      - "A2"
+
     button:
-      enable: true
+      enable: false
       label: "PEÇA UM ORÇAMENTO"
       link: "https://wa.me/message/LV47IM4YP4KEA1"
 
-  - title: "Plotagem de Projetos"
-    image: "/images/service-3.png"
-    content: "With Astro, you can build modern and content-focused websites without sacrificing performance or ease of use."
+  - title: "Adesivos"
+    image: "/images/adesivos.png"
+    content: "Adesivos de vinil duráveis para uso externo, ideais para sinalização. Adesivos de papel econômicos, ótimos para etiquetas e promoções internas. Recortes precisos para designs personalizados."
     bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Astro a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+      - "Adesivos de Papel"
+      - "Adesivos de vinil brilho e fosco"
+      - "Adesivo Perfurado para vidros"
+      - "Adesivos transparentes e Jateado"
+      - "Adesivos com Recorte Eletrônico"
+
     button:
-      enable: false
-      label: ""
+      enable: true
+      label: "SABER MAIS"
       link: ""
   
-  - title: "Impressão Digital"
-    image: "/images/service-3.png"
-    content: "With Astro, you can build modern and content-focused websites without sacrificing performance or ease of use."
+  - title: "Sinalização"
+    image: "/images/sinalizacao.png"
+    content: "Esses materiais são amplamente empregados em publicidade externa, sinalização de eventos, decoração de ambientes e outras aplicações comerciais e promocionais"
     bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Astro a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+      - "Banners"
+      - "Faixas"
+      - "Cavaletes"
+      - "Placa PVC"
+      - "Imãs"
+      - "Placa de Obra"
+      - "Display de Mesa"
+
+
+
     button:
       enable: false
       label: ""

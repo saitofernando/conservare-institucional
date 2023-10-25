@@ -3,7 +3,7 @@ import Logo from "@/components/Logo.astro";
 import ThemeSwitcher from "@/components/ThemeSwitcher.astro";
 import config from "@/config/config.json";
 import menu from "@/config/menu.json";
-import { IoSearch } from "react-icons/io5/index.js";
+import { IoSearch, IoLogoWhatsapp } from "react-icons/io5/index.js";
 
 export interface ChildNavigationLink {
   name: string;
@@ -35,11 +35,11 @@ const { pathname } = Astro.url;
       class="order-3 cursor-pointer flex items-center lg:hidden text-dark dark:text-white lg:order-1"
     >
       <svg id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20">
-        <title>Menu Open</title>
+        <title>Abrir Menu</title>
         <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
       </svg>
       <svg id="hide-button" class="h-6 fill-current hidden" viewBox="0 0 20 20">
-        <title>Menu Close</title>
+        <title>Fechar Menu</title>
         <polygon
           points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
           transform="rotate(45 10 10)"></polygon>
@@ -107,10 +107,11 @@ const { pathname } = Astro.url;
         navigation_button.enable && (
           <li class="mt-4 inline-block lg:hidden">
             <a
-              class="btn btn-outline-primary btn-sm"
+              class="btn btn-whatsapp btn-sm flex items-center gap-1"
               href={navigation_button.link}
             >
               {navigation_button.label}
+              <IoLogoWhatsapp size={16} />
             </a>
           </li>
         )
@@ -122,20 +123,21 @@ const { pathname } = Astro.url;
           <a
             class="mr-5 inline-block border-r border-border pr-5 text-xl text-dark hover:text-primary dark:border-darkmode-border dark:text-white"
             href="/search"
-            aria-label="search"
+            aria-label="Pesquisar"
           >
             <IoSearch />
           </a>
         )
       }
-      <ThemeSwitcher className="mr-5" />
+      <ThemeSwitcher className="mr-7" />
       {
         navigation_button.enable && (
           <a
-            class="btn btn-outline-primary btn-sm hidden lg:inline-block"
+            class="btn btn-whatsapp btn-sm hidden lg:flex gap-1 items-center"
             href={navigation_button.link}
           >
             {navigation_button.label}
+            <IoLogoWhatsapp size={16} />
           </a>
         )
       }

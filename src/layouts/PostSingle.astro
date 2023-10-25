@@ -1,8 +1,8 @@
 ---
 import BlogCard from "@/components/BlogCard.astro";
-import Share from "@/components/Share.astro";
+
 import config from "@/config/config.json";
-import Disqus from "@/helpers/Disqus";
+
 import { getSinglePage } from "@/lib/contentParser.astro";
 import dateFormat from "@/lib/utils/dateFormat";
 import similerItems from "@/lib/utils/similarItems";
@@ -54,7 +54,7 @@ const { title, description, author, categories, image, date, tags } = post.data;
               categories.map((category: string, index: number) => (
                 <a href={`/categories/${slugify(category)}`}>
                   {humanize(category)}
-                  {index !== categories.length - 1 && ","}
+                  {index !== categories.length - 1 && ", "}
                 </a>
               ))
             }
@@ -85,17 +85,7 @@ const { title, description, author, categories, image, date, tags } = post.data;
               }
             </ul>
           </div>
-          <div class="flex items-center lg:col-4">
-            <h5 class="mr-3">Share :</h5>
-            <Share
-              className="social-icons"
-              title={title}
-              description={description}
-              slug={post.slug}
-            />
-          </div>
         </div>
-        <Disqus className="mt-20" client:load />
       </article>
     </div>
 

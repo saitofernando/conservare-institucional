@@ -1,7 +1,7 @@
 {
   "site": {
     "title": "Conservare Gráfica - Impressões que preservam sua marca.",
-    "base_url": "https://astroplate.netlify.app",
+    "base_url": "https://conservaregrafica.com.br",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
@@ -23,22 +23,13 @@
   },
 
   "params": {
-    "contact_form_action": "#",
     "copyright": "2023 - Conservare Gráfica ® | CNPJ: 22.367.488/0001-22 | Todos os direitos reservados."
   },
 
   "navigation_button": {
     "enable": true,
-    "label": "FALAR COM ATENDENTE",
-    "link": "https://github.com/zeon-studio/astroplate"
-  },
-
-  "disqus": {
-    "enable": true,
-    "shortname": "themefisher-template",
-    "settings": {
-      "language": "pt_BR"
-    }
+    "label": "WhatsApp",
+    "link": "https://wa.me/message/LV47IM4YP4KEA1"
   },
 
   "metadata": {

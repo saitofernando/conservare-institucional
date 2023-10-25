@@ -14,9 +14,10 @@
       "url": "/setores"
     },
     {
-      "name": "Orçamento",
-      "url": "/orcamento"
+      "name": "Sobre",
+      "url": "/sobre"
     },
+
     {
       "name": "Mais",
       "url": "",
@@ -27,8 +28,8 @@
           "url": "/categories"
         },
         {
-          "name": "Sobre",
-          "url": "/sobre"
+          "name": "Privacidade",
+          "url": "/politica-de-privacidade"
         }
       ]
     }
@@ -40,7 +41,7 @@
     },
     {
       "name": "Privacidade",
-      "url": "/privacy-policy"
+      "url": "/politica-de-privacidade"
     },
     {
       "name": "Pesquisar",
