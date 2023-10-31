@@ -2,14 +2,14 @@
 import config from "@/config/config.json";
 import { humanize, plainify, slugify } from "@/lib/utils/textConverter";
 import { Image } from "astro:assets";
-import { FaRegFolder, FaRegUserCircle } from "react-icons/fa/index.js";
+import { FaRegFolder } from "react-icons/fa/index.js";
 
 const {
   summary_length,
   blog_folder,
 }: { summary_length: number; blog_folder: string } = config.settings;
 const { data } = Astro.props;
-const { title, image, date, author, categories } = data.data;
+const { title, image, categories } = data.data;
 ---
 
 <div class="bg-body dark:bg-darkmode-body">

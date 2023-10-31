@@ -9,7 +9,7 @@ import { AlvoradaLogo } from "@/assets/logos/AlvoradaLogo";
 import { UCDBLogo } from "@/assets/logos/UCDBLogo";
 
 export const Brands = () => (
-  <section className="w-full bg-theme-light dark:bg-darkmode-theme-light py-12 sm:py-14">
+  <section className=" bg-theme-light dark:bg-darkmode-theme-light py-12 sm:py-14">
     <motion.div
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}

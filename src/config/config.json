@@ -1,7 +1,7 @@
 {
   "site": {
     "title": "Conservare Gráfica - Impressões que preservam sua marca.",
-    "base_url": "https://conservaregrafica.com.br",
+    "base_url": "https://astro.conservaregrafica.com.br",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",

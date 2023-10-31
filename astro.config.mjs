@@ -12,7 +12,7 @@ import config from "./src/config/config.json";
 export default defineConfig({
   site: config.site.base_url
     ? config.site.base_url
-    : "https://conservaregrafica.com.br",
+    : "https://astro.conservaregrafica.com.br",
   base: config.site.base_path ? config.site.base_path : "/",
   trailingSlash: config.site.trailing_slash ? "always" : "never",
   image: {
@@ -35,6 +35,9 @@ export default defineConfig({
         "@/shortcodes/Youtube",
         "@/shortcodes/Tabs",
         "@/shortcodes/Tab",
+        "@/shortcodes/Brands",
+        "@/shortcodes/ScrollUpButton",
+        "@/shortcodes/WhatsAppButton",
       ],
     }),
     mdx(),
@@ -56,6 +59,6 @@ export default defineConfig({
     extendDefaultPlugins: true,
   },
   build: {
-    format: config.site.trailing_slash ? "directory" : "file",
+    format: "directory",
   },
 });

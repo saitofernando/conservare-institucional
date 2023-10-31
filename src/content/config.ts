@@ -52,6 +52,6 @@ const pagesCollection = defineCollection({
 // Export collections
 export const collections = {
   produtos: blogCollection,
-  authors: authorsCollection,
+  setores: authorsCollection,
   pages: pagesCollection,
 };
