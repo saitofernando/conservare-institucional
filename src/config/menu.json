@@ -30,6 +30,10 @@
         {
           "name": "Privacidade",
           "url": "/politica-de-privacidade"
+        },
+        {
+          "name": "Pesquisar",
+          "url": "/pesquisa"
         }
       ]
     }
