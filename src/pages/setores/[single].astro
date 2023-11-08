@@ -1,5 +1,6 @@
 ---
 import BlogCard from "@/components/BlogCard.astro";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
 import config from "@/config/config.json";
 import Base from "@/layouts/Base.astro";
 import { getSinglePage } from "@/lib/contentParser.astro";
@@ -53,6 +54,8 @@ const postFilterByAuthor = posts.filter(
             )
           }
           <h1 class="h3 mb-6">{title}</h1>
+         <Breadcrumbs className="my-6" />
+
           <div class="content">
             <Content />
           </div>

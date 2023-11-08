@@ -4,7 +4,7 @@
     "base_url": "https://astro.conservaregrafica.com.br",
     "base_path": "/",
     "trailing_slash": false,
-    "favicon": "/images/favicon.png",
+    "favicon": "/images/favicon.svg",
     "logo": "/images/logo-darkmode.svg",
     "logo_darkmode": "/images/logo.svg",
     "logo_width": "180",

@@ -9,6 +9,7 @@ import similerItems from "@/lib/utils/similarItems";
 import { humanize, markdownify, slugify } from "@/lib/utils/textConverter";
 import { Image } from "astro:assets";
 import { FaRegClock, FaRegFolder, FaBriefcase } from "react-icons/fa/index.js";
+import Breadcrumbs from "./components/Breadcrumbs.astro";
 
 const { blog_folder } = config.settings;
 const posts = await getSinglePage(blog_folder);
@@ -36,6 +37,7 @@ const { title, description, author, categories, image, date, tags } = post.data;
             </div>
           )
         }
+         <Breadcrumbs className="my-6" />
         <h1 set:html={markdownify(title)} class="h2 mb-4" />
         <ul class="mb-4">
           <li class="mr-4 inline-block">

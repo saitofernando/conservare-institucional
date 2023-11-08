@@ -1,8 +1,8 @@
 {
-  "name": "astroplate",
-  "version": "2.2.0",
-  "description": "Astro and Tailwindcss boilerplate",
-  "author": "saito",
+  "name": "conservare-institucional",
+  "version": "1.2.0",
+  "description": "Site institucional da Conservare Gráfica feito com AstroJS, ReactJS e Tailwindcss",
+  "author": "Conservare Gráfica",
   "license": "MIT",
   "packageManager": "yarn@1.22.19",
   "scripts": {

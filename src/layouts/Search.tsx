@@ -69,13 +69,13 @@ const Search = ({ searchList }: Props) => {
 
   return (
     <section className="section-sm">
-      <div className="container">
+      <div className="container ">
         <div className="row mb-10 justify-center">
-          <div className="lg:col-8">
-            <div className="flex flex-nowrap">
+          <div className="lg:col-8 ">
+            <div className="flex flex-nowrap ">
               <input
                 className="form-input rounded-r-none"
-                placeholder="Procure por produtos"
+                placeholder="Pesquisar"
                 type="search"
                 name="search"
                 value={inputVal}
@@ -100,22 +100,24 @@ const Search = ({ searchList }: Props) => {
             for '{inputVal}'
           </div>
         )} */}
-        <div className="row">
+        <div className="row mb-20">
           {searchResults?.length < 1 ? (
-            <div className="mx-auto pt-5 text-center">
+            <div className="mx-auto pt-20 text-center">
               <img
                 className="mx-auto mb-6"
-                src="/images/no-search-found.png"
+                src="/images/procurando.png"
                 alt="no-search-found"
+                height={200}
+                width={200}
               />
               <h1 className="h2 mb-4">
                 {inputVal.length < 1
-                  ? "Pesquise o produto aqui"
+                  ? "Encontre um produto"
                   : "Nenhum produto encontrado!"}
               </h1>
               <p>
                 {inputVal.length < 1
-                  ? "Pesquise postagens por título, categoria ou tag."
+                  ? "Pesquise produtos pelo nome, categoria ou setor"
                   : "Não foi possível encontrar o que você procurou. Tente pesquisar novamente."}
               </p>
             </div>
@@ -124,13 +126,15 @@ const Search = ({ searchList }: Props) => {
               <div className="mb-12 md:col-6 lg:col-4" key={`search-${index}`}>
                 <div className="bg-body dark:bg-darkmode-body">
                   {item.data.image && (
-                    <img
-                      className="mb-6 w-full rounded"
-                      src={item.data.image}
-                      alt={item.data.title}
-                      width={445}
-                      height={230}
-                    />
+                    <a href={`/${blog_folder}/${item.slug}`}>
+                      <img
+                        className="mb-6 w-full rounded"
+                        src={item.data.image}
+                        alt={item.data.title}
+                        width={445}
+                        height={230}
+                      />
+                    </a>
                   )}
                   <h4 className="mb-3">
                     <a href={`/${blog_folder}/${item.slug}`}>
@@ -168,7 +172,7 @@ const Search = ({ searchList }: Props) => {
                     className="btn btn-outline-primary btn-sm"
                     href={`/${blog_folder}/${item.slug}`}
                   >
-                    read more
+                    Ver produto
                   </a>
                 </div>
               </div>

@@ -1,4 +1,5 @@
 ---
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
 import Base from "@/layouts/Base.astro";
 import { markdownify } from "@/lib/utils/textConverter";
 import { Image } from "astro:assets";
@@ -7,6 +8,11 @@ import { getEntry } from "astro:content";
 const sobre = await getEntry("sobre", "-index");
 const { Content } = await sobre.render();
 const { title, description, meta_title, image } = sobre.data;
+
+const dataAtual = new Date();
+const anoAtual = dataAtual.getFullYear();
+const anoInicio = 2015;
+const dataConservare = anoAtual - anoInicio;
 ---
 
 <Base
@@ -18,11 +24,13 @@ const { title, description, meta_title, image } = sobre.data;
   <section class="section-sm">
     <div class="container">
       <div class="row justify-center">
+
         <div class="text-center md:col-10 lg:col-7">
+          <Breadcrumbs />
           {
             image && (
               <Image
-                class="mx-auto mb-6 rounded-lg"
+                class="mx-auto mt-6 mb-6 rounded-lg"
                 src={image}
                 width={445}
                 height={243}
@@ -32,9 +40,12 @@ const { title, description, meta_title, image } = sobre.data;
             )
           }
           <h2 set:html={markdownify(title)} class="h3 mb-6" />
+          <span class="text-darkmode-primary font-bold gap-3">HÁ {dataConservare} ANOS NO MERCADO GRÁFICO.</span>
           <div class="content">
+
             <Content />
           </div>
+
         </div>
       </div>
     </div>

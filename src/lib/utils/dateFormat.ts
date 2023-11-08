@@ -1,5 +1,5 @@
 import { formatInTimeZone } from "date-fns-tz";
-import  ptBR  from "date-fns/locale/pt-BR/index.js";
+import ptBR from "date-fns/locale/pt-BR/index.js";
 
 const dateFormat = (
   date: Date | string,

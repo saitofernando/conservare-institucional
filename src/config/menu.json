@@ -14,8 +14,8 @@
       "url": "/setores"
     },
     {
-      "name": "Sobre",
-      "url": "/sobre"
+      "name": "Categorias",
+      "url": "/categories"
     },
 
     {
@@ -24,8 +24,8 @@
       "hasChildren": true,
       "children": [
         {
-          "name": "Categorias",
-          "url": "/categories"
+          "name": "Sobre",
+          "url": "/sobre"
         },
         {
           "name": "Privacidade",
