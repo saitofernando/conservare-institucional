@@ -105,8 +105,8 @@ const Search = ({ searchList }: Props) => {
             <div className="mx-auto pt-20 text-center">
               <img
                 className="mx-auto mb-6"
-                src="/images/procurando.png"
-                alt="no-search-found"
+                src="/images/procurando.webp"
+                alt="nenhuma-produto-encontrado"
                 height={200}
                 width={200}
               />

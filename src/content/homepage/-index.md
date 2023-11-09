@@ -7,13 +7,13 @@ A Gráfica Conservare é a escolha certa para que suas impressões sejam de alta
   image: "/images/impressos.webp"
   button:
     enable: true
-    label: "FALE COM UM ATENDENTE"
-    link: "https://wa.me/message/LV47IM4YP4KEA1"
+    label: "VER NOSSOS PRODUTOS"
+    link: "/produtos"
 
 # Features
 features:
   - title: "Papelaria"
-    image: "/images/papelaria.png"
+    image: "/images/papelaria.webp"
     content: "A impressão offset é recomendada para impressões em larga escala, ou seja, em produções com um número mais elevado de materiais."
     bulletpoints:
       - "Cartões de Visita"
@@ -34,7 +34,7 @@ features:
       link: "/papelaria"
 
   - title: "Plotagem de Projetos"
-    image: "/images/plotagem.png"
+    image: "/images/plotagem.webp"
     content: "É uma impressão de grande formato com o diferencial de entregar a maior qualidade possível resultando um material com linhas, escalas e legendas nítidas e exatas, fiéis ao projeto original."
     bulletpoints:
       - "A0"
@@ -48,7 +48,7 @@ features:
       link: "https://wa.me/message/LV47IM4YP4KEA1"
 
   - title: "Adesivos"
-    image: "/images/adesivos.png"
+    image: "/images/adesivos.webp"
     content: "Adesivos de vinil duráveis para uso externo, ideais para sinalização. Adesivos de papel econômicos, ótimos para etiquetas e promoções internas. Recortes precisos para designs personalizados."
     bulletpoints:
       - "Adesivos de Papel"
@@ -63,7 +63,7 @@ features:
       link: ""
   
   - title: "Sinalização"
-    image: "/images/sinalizacao.png"
+    image: "/images/sinalizacao.webp"
     content: "Esses materiais são amplamente empregados em publicidade externa, sinalização de eventos, decoração de ambientes e outras aplicações comerciais e promocionais"
     bulletpoints:
       - "Banners"

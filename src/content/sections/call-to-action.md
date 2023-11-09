@@ -1,7 +1,7 @@
 ---
 enable: true
 title: "Orçamento sem compromisso!"
-image: "/images/call-to-action.png"
+image: "/images/call-to-action.webp"
 description: "Faça sua marca se destacar com nossos impressos personalizadas exclusivos!"
 button:
   enable: true

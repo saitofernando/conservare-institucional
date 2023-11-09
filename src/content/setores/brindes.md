@@ -1,7 +1,7 @@
 ---
 title: Brindes
-image: "/images/avatar.png"
+image: "/images/brindes.png"
 description: this is meta description
 ---
 
-Desenvolvemos brindes personalizados de acordo com sua demanda e preferência.
+Sistema de sublimação e gravação nos brindes.

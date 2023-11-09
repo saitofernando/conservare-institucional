@@ -2,14 +2,14 @@
 import config from "@/config/config.json";
 import { humanize, plainify, slugify } from "@/lib/utils/textConverter";
 import { Image } from "astro:assets";
-import { FaRegFolder } from "react-icons/fa/index.js";
+import { FaRegFolder, FaBriefcase } from "react-icons/fa/index.js";
 
 const {
   summary_length,
   blog_folder,
 }: { summary_length: number; blog_folder: string } = config.settings;
 const { data } = Astro.props;
-const { title, image, categories } = data.data;
+const { title, image, categories, author } = data.data;
 ---
 
 <div class="bg-body dark:bg-darkmode-body">
@@ -33,6 +33,12 @@ const { title, image, categories } = data.data;
     </a>
   </h4>
   <ul class="mb-4">
+    <li class="mr-4 inline-block">
+      <a href={`/setores/${slugify(author)}`}>
+        <FaBriefcase className={"mr-2 -mt-1 inline-block"} />
+        {humanize(author)}
+      </a>
+    </li>
     <li class="mr-4 inline-block">
       <FaRegFolder className={"mr-2 -mt-1 inline-block"} />
       {
