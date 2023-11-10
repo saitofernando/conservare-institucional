@@ -9,7 +9,7 @@ const {
   blog_folder,
 }: { summary_length: number; blog_folder: string } = config.settings;
 const { data } = Astro.props;
-const { title, image, categories, author } = data.data;
+const { title, image, servicos, author } = data.data;
 ---
 
 <div class="bg-body dark:bg-darkmode-body">
@@ -42,10 +42,10 @@ const { title, image, categories, author } = data.data;
     <li class="mr-4 inline-block">
       <FaRegFolder className={"mr-2 -mt-1 inline-block"} />
       {
-        categories.map((category: string, index: number) => (
-          <a href={`/categories/${slugify(category)}`}>
+        servicos.map((category: string, index: number) => (
+          <a href={`/servicos/${slugify(category)}`}>
             {humanize(category)}
-            {index !== categories.length - 1 && ", "}
+            {index !== servicos.length - 1 && ", "}
           </a>
         ))
       }

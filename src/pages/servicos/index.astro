@@ -6,22 +6,22 @@ import { humanize } from "@/lib/utils/textConverter";
 import PageHeader from "@/partials/PageHeader.astro";
 
 const { blog_folder }: { blog_folder: string } = config.settings;
-const categories = await getTaxonomy(blog_folder, "categories");
-const allCategories = await getAllTaxonomy(blog_folder, "categories");
+const servicos = await getTaxonomy(blog_folder, "servicos");
+const allservicos = await getAllTaxonomy(blog_folder, "servicos");
 ---
 
-<Base title={"Categories"}>
-  <PageHeader title={"Categories"} />
+<Base title={"Serviços"}>
+  <PageHeader title={"Serviços"} />
   <section class="section">
     <div class="container text-center">
       <ul>
         {
-          categories.map((category: string) => {
-            const count = allCategories.filter((c) => c === category).length;
+          servicos.map((category: string) => {
+            const count = allservicos.filter((c) => c === category).length;
             return (
-              <li class="m-3 inline-block">
+              <li class="m-3 inline-block ">
                 <a
-                  href={`/categories/${category}`}
+                  href={`/servicos/${category}`}
                   class="block rounded bg-theme-light px-4 py-2 text-xl text-dark dark:bg-darkmode-theme-light dark:text-darkmode-dark"
                 >
                   {humanize(category)}{" "}
@@ -34,6 +34,13 @@ const allCategories = await getAllTaxonomy(blog_folder, "categories");
           })
         }
       </ul>
+      <img
+        class="mx-auto py-16"
+        src="/images/procurando.webp"
+        alt="nenhuma-produto-encontrado"
+        height={200}
+        width={200}
+      />
     </div>
   </section>
 </Base>

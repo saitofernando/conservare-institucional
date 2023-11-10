@@ -16,7 +16,7 @@ const posts = await getSinglePage(blog_folder);
 const { post } = Astro.props;
 const similarPosts = similerItems(post, posts, post.slug);
 const { Content } = await post.render();
-const { title, description, author, categories, image, date, tags } = post.data;
+const { title, description, author, servicos, image, date, tags } = post.data;
 ---
 
 <section class="section pt-7">
@@ -49,10 +49,10 @@ const { title, description, author, categories, image, date, tags } = post.data;
           <li class="mr-4 inline-block">
             <FaRegFolder className={"mr-2 -mt-1 inline-block"} />
             {
-              categories.map((category: string, index: number) => (
-                <a href={`/categories/${slugify(category)}`}>
+              servicos.map((category: string, index: number) => (
+                <a href={`/servicos/${slugify(category)}`}>
                   {humanize(category)}
-                  {index !== categories.length - 1 && ", "}
+                  {index !== servicos.length - 1 && ", "}
                 </a>
               ))
             }

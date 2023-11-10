@@ -35,7 +35,7 @@ const Search = ({ searchList }: Props) => {
   };
 
   const fuse = new Fuse(searchList, {
-    keys: ["data.title", "data.categories", "data.tags"],
+    keys: ["data.title", "data.servicos", "data.tags"],
     includeMatches: true,
     minMatchCharLength: 3,
     threshold: 0.5,
@@ -152,14 +152,14 @@ const Search = ({ searchList }: Props) => {
                     </li>
                     <li className="mr-4 inline-block">
                       <FaRegFolder className={"-mt-1 mr-2 inline-block"} />
-                      {item.data.categories.map(
+                      {item.data.servicos.map(
                         (category: string, index: number) => (
                           <a
-                            href={`/categories/${slugify(category)}`}
+                            href={`/servicos/${slugify(category)}`}
                             key={category}
                           >
                             {humanize(category)}
-                            {index !== item.data.categories.length - 1 && ", "}
+                            {index !== item.data.servicos.length - 1 && ", "}
                           </a>
                         ),
                       )}

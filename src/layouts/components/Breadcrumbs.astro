@@ -31,10 +31,13 @@ paths.forEach((label: string, i: number) => {
           {index > 0 && <span class="inlin-block mr-1">/</span>}
           {index !== parts.length - 1 ? (
             <a class="text-primary dark:text-darkmode-primary" {...attrs}>
-              {label}
+              {decodeURIComponent(label)}{" "}
+              {/* Decodificar a string antes de exibir */}
             </a>
           ) : (
-            <span class="text-light dark:text-darkmode-light">{label}</span>
+            <span class="text-light dark:text-darkmode-light">
+              {decodeURIComponent(label)}
+            </span>
           )}
         </li>
       ))

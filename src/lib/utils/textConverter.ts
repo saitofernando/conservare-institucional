@@ -39,6 +39,7 @@ const htmlEntityDecoder = (htmlWithEntities: string) => {
     "&amp;": "&",
     "&quot;": '"',
     "&#39;": "'",
+    "&ccedil;": "ç",
   };
   let htmlWithoutEntities: string = htmlWithEntities.replace(
     /(&amp;|&lt;|&gt;|&quot;|&#39;)/g,

@@ -29,9 +29,9 @@ features:
 
 
     button:
-      enable: false
-      label: "VER PRODUTOS"
-      link: "/papelaria"
+      enable: true
+      label: "Ver produtos"
+      link: "/servicos/papelaria"
 
   - title: "Plotagem de Projetos"
     image: "/images/plotagem.webp"
@@ -43,9 +43,9 @@ features:
       - "A2"
 
     button:
-      enable: false
-      label: "PEÇA UM ORÇAMENTO"
-      link: "https://wa.me/message/LV47IM4YP4KEA1"
+      enable: true
+      label: "Ver produtos"
+      link: "/servicos/plotagem"
 
   - title: "Adesivos"
     image: "/images/adesivos.webp"
@@ -59,8 +59,8 @@ features:
 
     button:
       enable: true
-      label: "SABER MAIS"
-      link: ""
+      label: "Ver produtos"
+      link: "/servicos/adesivos"
   
   - title: "Sinalização"
     image: "/images/sinalizacao.webp"
@@ -77,7 +77,7 @@ features:
 
 
     button:
-      enable: false
-      label: ""
-      link: ""
+      enable: true
+      label: "Ver produtos"
+      link: "/servicos/sinalização"
 ---
