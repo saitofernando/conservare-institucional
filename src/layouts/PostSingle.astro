@@ -88,15 +88,29 @@ const { title, description, author, servicos, image, date, tags } = post.data;
     </div>
 
     <!-- Related posts -->
-    <div class="section pb-0">
+    <div class="hidden lg:flex-col lg:flex section pb-0 col-10 container">
       <h2 class="h3 mb-12 text-center">Produtos Relacionados</h2>
-      <div class="row justify-center">
+      <div class="row">
         {
-          similarPosts.map((post) => (
+          similarPosts.slice(0, 6).map((post) => (
             <div class="lg:col-4 mb-12">
               <BlogCard data={post} />
             </div>
           ))
+
+        }
+      </div>
+    </div>
+    <div class="lg:hidden section pb-0  container">
+      <h2 class="h3 mb-12 text-center">Produtos Relacionados</h2>
+      <div class="row ">
+        {
+          similarPosts.slice(0, 2).map((post) => (
+            <div class="lg:col-4 mb-12">
+              <BlogCard data={post} />
+            </div>
+          ))
+
         }
       </div>
     </div>
