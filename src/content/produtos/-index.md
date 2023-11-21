@@ -1,5 +1,5 @@
 ---
 title: "Produtos"
-meta_title: "produtos"
+meta_title: "Produtos"
 description: "this is meta description"
 ---
