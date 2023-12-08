@@ -38,6 +38,7 @@ export default defineConfig({
         "@/shortcodes/Brands",
         "@/shortcodes/ScrollUpButton",
         "@/shortcodes/WhatsAppButton",
+        "@/shortcodes/ButtonWhatsapp",
       ],
     }),
     mdx(),

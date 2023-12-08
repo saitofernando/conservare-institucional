@@ -15,5 +15,5 @@
 }
 
 .btn-whatsapp {
-  @apply bg-[#00af41] hover:bg-[#25d366]  dark:text-dark text-white;
+  @apply bg-[#00af41] hover:bg-[#25d366] hover:dark:text-dark dark:text-dark text-white;
 }

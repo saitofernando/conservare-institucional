@@ -11,3 +11,9 @@ export type Button = {
   label: string;
   link: string;
 };
+
+export type ButtonWhatsapp = {
+  enable: boolean;
+  label: string;
+  link: string;
+};
