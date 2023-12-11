@@ -25,7 +25,7 @@ export const WhatsAppButton = () => {
         <a
           className="custom-border-gray fixed bottom-6 left-6 z-50 flex h-12 w-12 cursor-pointer items-center justify-center rounded-xl bg-[#1e9d4f] transition hover:bg-[#24D366]"
           target="_blank"
-          href="https://wa.me/556732539212?text=Ol%C3%A1%2C+gostaria+de+um+or%C3%A7amento+de+sacolas+personalizadas."
+          href="https://wa.me/message/LV47IM4YP4KEA1"
         >
           <WhatsappIcon />
           <div className="fixed bottom-6 left-6 z-50 flex h-12 w-12 animate-ping  items-center justify-center rounded-xl bg-[#1e9d4f] transition hover:bg-[#24D366]"></div>
