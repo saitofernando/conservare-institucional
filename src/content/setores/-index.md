@@ -1,5 +1,5 @@
 ---
 title: "Setores"
 meta_title: "setores"
-description: "this is meta description"
+description: "Todos os nossos setores da gráfica"
 ---

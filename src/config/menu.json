@@ -43,10 +43,8 @@
     }
   ],
   "footer": [
-    {
-      "name": "Elementos",
-      "url": "/elements"
-    },
+
+
     {
       "name": "Privacidade",
       "url": "/politica-de-privacidade"
@@ -54,6 +52,10 @@
     {
       "name": "Pesquisar",
       "url": "/pesquisa"
+    },
+    {
+      "name": "Sobre",
+      "url": "/sobre"
     }
   ]
 }

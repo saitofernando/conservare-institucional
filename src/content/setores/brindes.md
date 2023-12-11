@@ -1,7 +1,7 @@
 ---
 title: Brindes
 image: "/images/brindes.png"
-description: this is meta description
+description: Sistema de sublimação e gravação nos brindes.
 ---
 
 Sistema de sublimação e gravação nos brindes.

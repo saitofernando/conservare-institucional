@@ -1,7 +1,7 @@
 ---
 title: Offset
 image: "/images/offset.png"
-description: this is meta description
+description: Sistema de impressão em larga escala para altas tiragens.
 ---
 
 Sistema de impressão em larga escala para altas tiragens.
