@@ -1,6 +1,6 @@
 ---
 title: Offset
-image: "/images/offset.png"
+image: "/images/offset.webp"
 description: Sistema de impressão em larga escala para altas tiragens.
 ---
 

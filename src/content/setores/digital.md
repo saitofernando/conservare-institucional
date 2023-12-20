@@ -1,6 +1,6 @@
 ---
 title: Digital
-image: "/images/digital.png"
+image: "/images/digital.webp"
 description: Sistema de impressão mais ágil para poucas tiragens.
 ---
 
