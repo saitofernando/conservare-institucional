@@ -4,11 +4,10 @@ import BlogCard from "@/components/BlogCard.astro";
 import config from "@/config/config.json";
 
 import { getSinglePage } from "@/lib/contentParser.astro";
-import dateFormat from "@/lib/utils/dateFormat";
 import similerItems from "@/lib/utils/similarItems";
 import { humanize, markdownify, slugify } from "@/lib/utils/textConverter";
 import { Image } from "astro:assets";
-import { FaRegClock, FaRegFolder, FaBriefcase } from "react-icons/fa/index.js";
+import {  FaRegFolder, FaBriefcase } from "react-icons/fa/index.js";
 import Breadcrumbs from "./components/Breadcrumbs.astro";
 
 const { blog_folder } = config.settings;
@@ -57,7 +56,6 @@ const { title, description, author, servicos, image, date, tags } = post.data;
               ))
             }
           </li>
-
         </ul>
         <div class="content mb-10">
           <Content />
